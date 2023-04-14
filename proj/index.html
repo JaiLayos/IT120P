@@ -1,11 +1,19 @@
+<!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Air Pollution Parametric System</title>
 <link rel="stylesheet" href="styles.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Poppins:wght@300&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/d358970a21.js" ></script>
+<script src="script.js"></script>
+
 </head>
+<script src="script.js"></script>
 <body>
 	<div class="left">
 		<img src="assets/logo.png" class="logo">
@@ -37,7 +45,103 @@
 			<a href="index.html"><h2 class="navtext">SETTINGS</h2></a>
 		</div>
 	</div>
-	<div class="mid">mid is working</div>
-	<div class="right">right is working</div>
+	<div class="mid">
+		<form class="searchbar">
+		<span class="movebar">
+		<input type="text" class="search">
+		<button type="submit" class="submit">Search</button>
+		</span>
+		</form>
+		<div class="image">
+			<img id="pic" src="assets/luzon.jpeg">
+			<h1 class="h2">Luzon</h1>
+		</div>
+		<div class="image">
+			<img id="pic" src="assets/visayas.jpg">
+			<h1 class="h3">Visayas</h1>
+		</div>
+		<div class="image">
+			<img id="pic" src="assets/mindanao.jpg">
+			<h1 class="h4">Mindanao</h1>
+		</div>
+		<h1 class="h1">LIVE AQI CITY RANKING</h1>
+		<p class="p3">Real-time Philippines Most Polluted City Ranking</p>
+		<div class="container">
+			<div class="toggle-btns">
+				<i class="fas fa-list  list-layout  active" onclick="toggleView(event);"></i>
+				<i class="fas fa-th-large grid-layout " onclick="toggleView(event);"></i>
+			</div>
+			<div class="project-container list">
+				<div class="project">
+					<h2 class="project-title">Olongapo, Central Luzon</h2>
+					<div class="project-info">
+						<div class="detail flex">
+							<div class="info">
+								<p>128</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="project">
+					<h2 class="project-title">Silang, Calabarzon</h2>
+					<div class="project-info">
+						<div class="detail flex">
+							<div class="info">
+								<p>125</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="project">
+					<h2 class="project-title">Batangas, Calabarzon</h2>
+					<div class="project-info">
+						<div class="detail flex">
+							<div class="info">
+								<p>96</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="project">
+					<h2 class="project-title">Paranaque, National Capital Region</h2>
+					<div class="project-info">
+						<div class="detail flex">
+							<div class="info">
+								<p>60</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="right">
+		<div class="horizontal"></div>
+		<img src="assets/icon.png" class="icon">
+		<div class="par1">
+			<h2 class="headerp1">ABOUT THE SYSTEM</h2>
+			<p class="p1">This system will provide residents with an Air Quality Monitoring 
+			System that can monitor air reliability and assess the present air 
+			quality. A network of detectors is planned to collect data, and the 
+			resulting data is expected to be displayed on a portable or web-based 
+			server. This technology has the potential to identify contaminated 
+			issue areas and make sense of the spatial changes taking place there. 
+			If the data is made available, universities and research centers can 
+			use existing statistics to develop strategies for preventing and 
+			restoring air quality in the area.</p>
+		</div>
+		<a href="index.html" class="readmore">Read More</a>
+		<div class="vertical"></div>
+		<div class="par2">
+			<h2 class="headerp2">OUR OBJECTIVES<h2>
+			<p class="p2">This investigation aims to document the intensity of 
+			environmental contaminants to measure air quality levels and develop 
+			planning processes in the event of elevated concentrations. It will also
+			identify problematic locations of pollution and get an understanding of 
+			the spatial shifts associated with them. Finally, it will develop an 
+			action plan to inform local residents about the state of the air 
+			quality in their area.</p>
+		</div>
+	</div>
 </body>
 </html>
