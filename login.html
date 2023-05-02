@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Air Pollution Parametric System</title>
+<link rel="stylesheet" href="styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Poppins:wght@300&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/d358970a21.js" ></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Josefin+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
+<script src="script.js"></script>
+
+</head>
+<script src="script.js"></script>
+<body>
+	<div class="left">
+		<img src="assets/logo.png" class="logo">
+		<div class="quote">
+			<h3>For an excellent <br> air quality</h3>
+		</div>
+		<div class="nav">
+			<img src="assets/home.png" class="homeicon">
+			<a href="index.html"><h2 class="navtext">HOME</h2></a>
+			</div>
+		<div class="nav">
+			<img src="assets/you area.png" class="yAreaicon">
+			<a href="yourarea.html"><h2 class="navtext">YOUR AREA</h2></a>
+		</div>
+		<div class="nav">
+			<img src="assets/faqs.png" class="faqsicon">
+			<a href="FAQs.html"><h2 class="navtext">FAQS</h2></a>
+		</div>
+		<div class="nav">
+			<img src="assets/register.png" class="regisicon">
+			<a href="register.html"><h2 class="navtext">REGISTER</h2></a>
+		</div>
+		<div class="nav">
+			<img src="assets/register.png" class="loginicon">
+			<a href="login.html"><h2 class="navtext">DEACTIVATE</h2></a>
+		</div>
+	</div>
+	<div class="register-panel1">
+		<div class="register-form1">
+			<p class="register-label">Deactivate?</p>
+			<div class="parent1">
+				<form method="POST" action="delete.php" class="form1">
+					<label>Enter your email:</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+					<input type="email" id="email" name="email" size="40" required>
+					<br>
+					<label>Enter your password:</label> &nbsp;  
+					<input type="password" id="password" name="password" size="40" required> 
+					<br>
+					<br>
+					<br>
+					<button type="submit" name="submit" class="registerbtn1">DELETE USER</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

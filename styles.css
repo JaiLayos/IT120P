@@ -1,0 +1,712 @@
+html{
+	overflow: hidden;
+}
+
+a{
+	text-decoration:none;
+}
+
+.nav:hover{
+	filter: brightness(65%);
+}
+
+.nav:active{
+	filter: brightness(65%);
+}
+
+.left{
+	background-color:#FFBEBD;
+	width: 20%;
+	height:100%;
+	position: absolute;
+	left:0%;
+	top:0%;
+	font-family: 'Cherry Cream Soda', cursive;
+}
+
+.mid{
+	width: 50%;
+	height:100%;
+	position: absolute;
+	left: 20%;
+	top:0%;
+}
+
+.right{
+	width: 30%;
+	height:100%;
+	position: absolute;
+	left: 70%;
+	top:0%;
+}
+
+.quote{
+	text-align:center;
+	width: 100%;
+	position:absolute;
+	top: 27%;
+	color:#621313;
+}
+
+.logo{
+	margin: auto;
+	padding: 52px;
+	padding-top: 20px;
+	padding-bottom: 70px;
+}
+
+.nav{
+	display:block;
+	width: auto;
+	margin-left: 10%;
+	margin-bottom:5%;
+}
+
+.navtext{
+	display:inline;
+	margin-left:3%;
+	position:relative;
+	top:-8px;
+	color:#BD565A;
+}
+
+.searchbar{
+	width: 100%;
+	margin: auto;
+	padding: 15px;
+	position:absolute;
+	top: 5%;
+}
+
+.movebar{
+	width: auto;
+	margin: auto;
+	padding: 28%;
+}
+
+.search{
+	background-color:#FFBEBD;
+	width: 30%;
+	border-radius: 5px;
+	border-color: #FFBEBD;
+}
+
+.submit{
+	background-color:#F18E8E;
+	border-radius: 5px;
+	border-color:#F18E8E;
+}
+
+.horizontal{
+	width: 0.5%;
+	height:95%;
+	background-color: #BD3439;
+	position: absolute;
+	top:3%;
+}
+
+.par1{
+	width: 100%;
+	height: 47%;
+	position: absolute;
+	top:3%;
+}
+
+.headerp1{
+	font-family: 'Sedgwick Ave Display', cursive;
+	letter-spacing: 2px;
+	width: auto;
+	margin: auto;
+	padding: 24%;
+	padding-top: 2%;
+	padding-bottom: 0%;
+}
+
+.p1{
+	font-family: 'Poppins', sans-serif;
+	width: 94%;
+	height: 88%;
+	margin: auto;
+	padding: 10%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 15px;
+}
+
+.readmore{
+	font-family: 'Poppins', sans-serif;
+	border: 1px solid #FFBEBD;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: #FFBEBD;
+	color: #89060B;
+	padding-right: 2%;
+	padding-left: 2%;
+	position: absolute;
+	top:53%;
+	left:35%;
+}
+
+.readmore:hover{
+	filter: brightness(85%);
+}
+
+.vertical{
+	height: 0.3%;
+	width:90%;
+	background-color: #BD3439;
+	position: absolute;
+	top:59%;
+	left: 5%;
+}
+
+.par2{
+	width: 100%;
+	height: 47%;
+	position: absolute;
+	top:60%;
+}
+
+.headerp2{
+	font-family: 'Sedgwick Ave Display', cursive;
+	letter-spacing: 2px;
+	width: auto;
+	margin: auto;
+	padding: 28%;
+	padding-top: 2%;
+	padding-bottom: 0%;
+}
+
+.p2{
+	font-family: 'Poppins', sans-serif;
+	width: 94%;
+	height: 60%;
+	margin: auto;
+	padding: 10%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	font-size: 15px;
+	position: absolute;
+	top:39px;
+	font-weight: 100;
+}
+
+.wholemove{
+	position:absolute;
+	top:10%;
+	width: 100%;
+}
+
+.h1{
+	position:absolute;
+	top: 35%;
+	padding: 10px;
+}
+
+.p3{
+	position: absolute;
+	top: 42%;
+	padding: 10px;
+}
+
+.image {
+	position: relative;
+	top: 9%;
+	left:5%;
+	float: left;
+	width: 150px;
+	height:110px;
+	margin: 40px;
+}
+
+.pic {
+	border: 4px solid #F18E8E;
+	border-radius: 5px;
+}
+
+.h2{
+	float: left;
+	margin: 35px;
+	margin-top: 0;
+}
+
+.h2-1{
+	float: left;
+	margin: 27px;
+	margin-top: 0;
+}
+
+.h2-2{
+	float: left;
+	margin: 10px;
+	margin-top: 0;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+*{
+	list-style: none;
+	box-sizing: border-box;
+}
+
+<!--List and Grid View-->
+
+.container{
+	border: 1px solid black;
+}
+
+:root {
+  --mdc-theme-primary: #8800be;
+  --mdc-theme-secondary: #8d99ae;
+}
+
+.toggle-btns{
+	position: absolute;
+	top: 39%;
+	left: 79%;
+	font-size: 2.7em;
+	padding: 5px;
+	margin-bottom: 2rem;
+}
+
+i{
+	width: 50px;
+	background: #8800be;
+	color: #ffffff;
+	padding: 0.5rem;
+	border-radius: 0.2rem;
+	font-size: 1.5rem;
+	cursor: pointer;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+}
+
+i:hover{
+	transform: translateY(-0.25rem);
+	box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
+}
+
+.active{
+	background: #ffffff;
+	color: #8800be;
+}
+
+.project{
+	background-color: #F18E8E;
+	border-radius: 0.5rem;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+	margin-bottom: 0.5rem;
+	position: relative;
+	top: 0%;
+	left: 0%;
+	display: grid;
+	grid-template-columns: 20px 2fr 600px;
+	grid-template-rows: auto auto auto;
+	grid-gap: 1rem;
+}
+
+.project:hover{
+	transform: scale(1.02);
+	box-shadow: 0px 40px 40px rgba(0,0,0,0.2);
+}
+
+.project-title{
+	font-size: 20px;
+	grid-column: 2 / 4;
+	grid-row: 1 / 4;
+	
+}
+
+.list{
+	display: grid;
+	grid-template-columns: 98%;
+	margin-left:1%;
+}
+
+.top-menu{
+	grid-column: 1 / 4;
+	grid-row: 1 / 2;
+	background: red;
+	justify-self: end;
+}
+
+.project-container{
+	width:100%;
+	position: absolute;
+	top:50%;
+}
+
+.project-info{
+	grid-column: 3 / 4;
+	grid-row: 3 / 4;
+}
+
+.flex{
+	display: flex;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 360px 360px;
+	grid-gap: 2rem;
+	margin-left: 1%;
+}
+
+.info{
+	display: flex;
+}
+
+.yourarea-mid{
+	width: 40%;
+	height:100%;
+	position: absolute;
+	left: 5%;
+	top:0%;
+	margin: auto;
+	align-items: center;
+}
+
+.yourarea-right{
+	width: fit-content;
+	height:100%;
+	position: absolute;
+	right: 5%;
+	top: 3%;
+}
+
+.bgYarea{
+	background-image: url(assets/bg.png);
+	width: 80%;
+	height:800px;
+	position: absolute;
+	top:0%;
+	left:20%;
+}
+
+.region{
+	position: relative;
+	width: fit-content;
+	height: 248px;
+	margin: auto;
+	align-items: center;
+}
+
+.AQI{
+	position: relative;
+	width: fit-content;
+	height: 248px;
+	margin: auto;
+	align-items: center;
+}
+
+.details{
+	position: relative;
+	margin: auto;
+	border: 0px solid #F18E8E;
+	border-radius: 25px;
+	height: 235px;
+	width: 425px;
+	border: 1px solid;
+	margin-top: 6px;
+	background-color: #F18E8E;
+	text-align: center;
+}
+.main-header{
+	position: relative;
+	font-size: 40px;
+	top: -30px;
+	font-family: 'Chewy', cursive;
+}
+
+.PM{
+	position: relative;
+	font-size: 40px;
+	font-family: 'Chewy', cursive;
+	top: -70px;
+}
+
+.pcenter{
+	position: relative;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	margin: auto;
+	width: 80%;
+	top: -100px;
+}
+
+.faqs-right{
+	position: absolute;
+	height: 745px;
+	width: 1229px;
+	left: 20%;
+	top: 0;
+}
+
+.faqs-right1{
+	position: absolute;
+	height: 745px;
+	width: 1229px;
+	left: 20%;
+	top: 0;
+}
+
+.faqs-header{
+	position: relative;
+	margin: auto;
+	border: 0px solid #F18E8E;
+	border-radius: 25px;
+	height: 140px;
+	width: 1200px;
+	border: 1px solid;
+	margin-top: 6px;
+	background-color: #F18E8E;
+	text-align: center;
+}
+
+.faqs-title{
+	position: relative;
+	font-size: 45px;
+	font-family: ;
+	top: 10px;
+	margin: auto;
+	font-size: 55px;
+	font-family: 'Crimson Pro', sans-serif;
+}
+
+.faqs-title1{
+	position: absolute;
+	font-size: 45px;
+	margin:auto;
+	padding-top:2%;
+	width:100%;
+	height: 100%;
+	font-size: 65px;
+	font-family: 'Crimson Pro', sans-serif;
+}
+
+
+.faqs-info{
+	background-image: url(faqs-bg.png);
+}
+
+.faqs-info1{
+	background-image: url(faqs-bg.png);
+	height:600px;
+}
+
+.faqs-p-1{
+	padding-left: 16px;
+	padding-right: 16px;
+	font-size: 12px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.faqs-p{
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 11px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.faqs-sub{
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 18px;
+	font-family: 'Kanit', sans-serif;
+}
+
+.faqs-p-2{
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 11px;
+	font-family: 'Poppins', sans-serif;
+	width: 70%;
+}
+
+.more{
+	font-size: 20px;
+	width: fit-content;
+	font-family: 'Sedgwick Ave Display', cursive;
+	background-color: #F18E8E;
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	right: 10%;
+	bottom: 5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border:5px outset #BD565A;
+	border-radius: 10px;
+	letter-spacing: 3px;
+}
+
+
+.register-panel{
+	background-image: url(assets/bg.png);
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	width: 80%;
+	height:800px;
+}
+
+.register-form{
+	background-color: #FFBEBD;
+	border-radius: 15px;
+	width: 80%;
+	height: 600px;
+	margin: auto;
+}
+
+.register-panel1{
+	background-image: url(assets/bg.png);
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	width: 80%;
+	height: 800px;
+}
+
+.register-form1{
+	position:relative;
+	top:10%;
+	background-color: #FFBEBD;
+	border-radius: 15px;
+	width: 40%;
+	margin: auto;
+	height: 400px;
+	
+}
+
+.register-label{
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 55px;
+	text-align: center;
+	width: 100%;
+	position:relative;
+	top: 5%;
+}
+
+.parent{
+	position:relative;
+	width:100%;
+	height:470px;
+}
+
+.form{
+	width:80%;
+	margin: auto;
+}
+
+.parent1{
+	position:relative;
+	width:100%;
+	height:270px;
+}
+
+.form1{
+	width:50%;
+	margin: auto;
+}
+
+label{
+	font-family: 'Poppins', sans-serif;
+	color: #BD3439;
+	font-size: 20px;
+}
+
+input{
+	background-color:#F18E8E;
+	margin-bottom: 2%;
+	height:35px;
+}
+
+.lastname{
+	margin: 284px;
+}
+
+.TAC{
+	font-size: 15px;
+	position: absolute;
+	top: 71%;
+}
+
+.TACbtn{
+	width: 70%;
+	margin: auto;
+}
+
+.rgstr{
+	width: fit-content;
+	margin-left: 30% ;
+}
+.rgstr1{
+	width: 100%;
+	margin-left: 30% ;
+}
+
+.registerbtn{
+	font-size: 20px;
+	width: 250%;
+	font-family: 'Sedgwick Ave Display', cursive;
+	background-color: #F18E8E;
+}
+
+.registerbtn1{
+	font-size: 15px;
+	width: 40%;
+	margin-left: 25%;
+	font-family: 'Sedgwick Ave Display', cursive;
+	background-color: #F18E8E;
+}
+
+.contact{
+	margin: 270px;
+}
+
+.faqs-btm{
+	position: absolute;
+	border: 0px solid #F18E8E;
+	border-radius: 25px;
+}
+
+.ask{
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 55px;
+	text-align: center;
+	width: 100%;
+	position:absolute;
+	top: 65%;
+}
+
+.emailus{
+	position:absolute;
+	top: 80%;
+	text-align: center;
+	width: 100%
+}
+
+.back{
+	font-size: 20px;
+	width: fit-content;
+	font-family: 'Sedgwick Ave Display', cursive;
+	background-color: #F18E8E;
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	left: 10%;
+	bottom: 17%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border:5px outset #BD565A;
+	border-radius: 10px;
+	letter-spacing: 3px;
+}
